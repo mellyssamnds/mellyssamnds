@@ -1,37 +1,43 @@
-## Oi, sou a Mellyssa 👋
+<h1 align="center">Olá, mundo!! 💻🌻</h1>
 
-Seja muito bem-vinda(o) ao meu perfil! 😉
+## 📚 Sobre mim
 
-## Sobre mim
-👩🏽‍💻 Desenvolvedora em formação apaixonada por Tecnologia<br>
-🎓 Estudante de Sistemas de Informação<br>
-🎓 Técnica em Redes de Computadores<br>
-📚 Busco projetos para colaborar e aprender, explorando o mundo do backend e praticar o front<br>
-🕵🏽‍♀️ Entusiasta de Segurança da Informação/Cybersecurity<br>
+Meu nome é Mellyssa Mendes, sou desenvolvedora backend formada em Sistemas de Informação pelo IFES e atualmente curso Pós-Graduação em Engenharia de Software na USP/Esalq. Gosto de resolver problemas reais com código limpo e arquitetura bem pensada. Atuei como desenvolvedora Backend nas empresas Americanas e Will bank, atuando principalmente com TypeScript e Java. Gosto de estudar e aprender coisas novas — hoje estou me aprofundando em Kubernetes, Cloud e em aplicações com IA generativa (integração de LLMs). 
 
-## Conhecimentos
-📌 **BÁSICO:** PHP, C, JAVA<br>
-📌 **INTERMEDIÁRIO:** PYTHON, SQL, GIT<br>
-📌 **APRENDENDO:** HTML, CSS e JS <br>
+## 🛠️ Tecnologias
 
-## Ferramentas e tecnologias: 
-<img src='https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white' /> <img src='https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white' /> <img src='https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white' /> <img src='https://img.shields.io/badge/Overleaf-47A141?style=for-the-badge&logo=Overleaf&logoColor=white' /> <img src='https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white' /> <img src='https://img.shields.io/badge/Insomnia-5849be?style=for-the-badge&logo=Insomnia&logoColor=white' /> <img src='https://img.shields.io/badge/Heroku-430098?style=for-the-badge&logo=heroku&logoColor=white' /> <img src='https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black' /> <img src='https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white' /> <img src='	https://img.shields.io/badge/Markdown-000000?style=for-the-badge&logo=markdown&logoColor=white' />    <img src='https://img.shields.io/badge/HTML-239120?style=for-the-badge&logo=html5&logoColor=white' /> <img src='https://img.shields.io/badge/CSS-239120?&style=for-the-badge&logo=css3&logoColor=white' /> <img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' /> <img src='https://img.shields.io/badge/Visual_Studio_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white' />
+<a href="https://skillicons.dev">
+  <img src="https://skillicons.dev/icons?i=python,java,typescript,go,spring,nestjs,nodejs,postgresql,mongodb,docker,kubernetes,git,github" />
+</a>
 
-## Contatos:
-[💻 LinkedIn](https://www.linkedin.com/in/mellyssas/) <br/>
-[📧 E-mail](mailto:mellyssa.smendes@gmail.com?subject=[GitHub]%20Acabei%20de%20ver%20o%20seu%20GitHub) <br/>
+## 💼 Projetos em destaque
 
-<!--
-**mellyssaStephanny/mellyssaStephanny** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+### 💰 [Extrato Popular](https://github.com/mellyssamnds/extrato-popular)
+API REST de gestão financeira pessoal para as classes C e D — sem burocracia, sem custo e sem exigência de conta bancária premium. Desenvolvida durante o **Hackathon Ada Tech 2026** em parceria com a Artemisia.
 
-Here are some ideas to get you started:
+🛠️ Java 21 | Spring Boot 3.3 | Spring Security + JWT | PostgreSQL | Spring AI (RAG) | OpenAI API | Swagger | JUnit/Mockito/JaCoCo
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+- Transforma extratos bancários (CSV/OFX) em um painel financeiro completo: categorização automática de gastos, orçamentos por categoria e alertas de limite.
+- Otimização financeira com **3 algoritmos via Strategy Pattern** (Knapsack, Gulosa e ROI).
+- Inclui um **pipeline de IA com RAG**: chat financeiro e relatórios personalizados gerados por LLM (gpt-4o-mini).
+- Isolamento multi-tenant garantido por testes de integração dedicados.
+- **297 testes automatizados**, 95% de cobertura de linhas (JaCoCo) — Clean Architecture com separação clara entre domínio, aplicação, infraestrutura e interfaces.
+
+### 📦 [Go Pedidos API](https://github.com/mellyssamnds/go-pedidos-api)
+API REST desenvolvida em **Go** (projeto de estudo, já que estou aprendendo a linguagem) para gerenciamento de clientes, produtos e pedidos, com criação de pedidos 100% transacional.
+
+🛠️ Go 1.26 | net/http | PostgreSQL 18 | pgx/v5 | golang-migrate | testify | Docker Compose
+
+- Arquitetura em camadas (Controllers → Services → Repositories → Database).
+- Interface `Querier` permite reaproveitar a mesma implementação de repositório em operações comuns e transacionais.
+- Criação de pedidos dentro de uma única transação: valida estoque, atualiza quantidades e persiste itens — com rollback automático em caso de falha.
+- Testes unitários (mocks) e testes de integração contra PostgreSQL real, com relatório de cobertura via `go tool cover`.
+
+### 🏅 [Esportes dELAS](https://github.com/mellyssamnds/esportes-delas)
+Sistema para incentivar e empoderar meninas através da prática esportiva, oferecendo um ambiente seguro e inclusivo. Projeto Final da Imersão JavaScript da **{reprograma}**.
+
+🛠️ TypeScript | NestJS | Node.js | MongoDB (Mongoose) | Swagger | Render
+
+- CRUD completo de atletas e treinos, com documentação de API via Swagger e deploy em nuvem.
+- Projeto com propósito social: combate estereótipos de gênero no esporte e promove autoconfiança entre meninas e jovens.
+
